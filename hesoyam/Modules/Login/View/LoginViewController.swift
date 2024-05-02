@@ -86,7 +86,8 @@ extension LoginViewController {
     
     @objc
     func resetPasswordPressed() {
-        print(#function)
+        let vc = ResetPasswordBuilder.createResetPasswordModule()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

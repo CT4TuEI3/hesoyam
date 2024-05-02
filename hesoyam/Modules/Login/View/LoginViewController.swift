@@ -75,7 +75,8 @@ private
 extension LoginViewController {
     @objc
     func signInPressed() {
-        print(#function)
+        let vc = MainBuilder.createMainModule()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc

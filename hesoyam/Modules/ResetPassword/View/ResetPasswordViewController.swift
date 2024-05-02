@@ -39,7 +39,6 @@ final class ResetPasswordViewController: UIViewController {
     
     private func setupUI() {
         title = "Reset"
-        navigationController?.navigationBar.prefersLargeTitles = true
         view.backgroundColor = .systemBackground
         
         view.addSubviews(emailTextField, resetButton)

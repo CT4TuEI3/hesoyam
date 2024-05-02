@@ -48,7 +48,6 @@ final class CreateAccountViewController: UIViewController {
     
     private func setupUI() {
         title = "Sign Up"
-        navigationController?.navigationBar.prefersLargeTitles = true
         view.backgroundColor = .systemBackground
         
         textFieldsStackView.addArrangedSubviews(userNameTextField, emailTextField, passwordTextField)

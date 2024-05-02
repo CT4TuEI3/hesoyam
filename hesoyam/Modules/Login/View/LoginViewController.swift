@@ -80,7 +80,8 @@ extension LoginViewController {
     
     @objc
     func createAccountPressed() {
-        print(#function)
+        let vc = CreateAccountBuilder.createCreateAccountModule()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3214752E2BE38E22005CCA46 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214752D2BE38E22005CCA46 /* UIViewExtension.swift */; };
+		321475302BE39012005CCA46 /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */; };
+		321475332BE394CD005CCA46 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321475322BE394CD005CCA46 /* CustomTextField.swift */; };
+		321475352BE399CF005CCA46 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321475342BE399CF005CCA46 /* CustomButton.swift */; };
 		328D850F2BE37BAA00F742D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D850E2BE37BAA00F742D8 /* AppDelegate.swift */; };
 		328D85112BE37BAA00F742D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D85102BE37BAA00F742D8 /* SceneDelegate.swift */; };
 		328D85182BE37BAE00F742D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328D85172BE37BAE00F742D8 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		0CE36B5CD9A14CC4757056A2 /* Pods_hesoyam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hesoyam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3214752D2BE38E22005CCA46 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		321475322BE394CD005CCA46 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		321475342BE399CF005CCA46 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		328D850B2BE37BAA00F742D8 /* hesoyam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hesoyam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		328D850E2BE37BAA00F742D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328D85102BE37BAA00F742D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3214752C2BE38DEA005CCA46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3214752D2BE38E22005CCA46 /* UIViewExtension.swift */,
+				3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		321475312BE394B1005CCA46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				321475322BE394CD005CCA46 /* CustomTextField.swift */,
+				321475342BE399CF005CCA46 /* CustomButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		328D85022BE37BAA00F742D8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +93,8 @@
 			children = (
 				328D85222BE37CEE00F742D8 /* Core */,
 				328D85232BE37D1400F742D8 /* Resources */,
+				3214752C2BE38DEA005CCA46 /* Extensions */,
+				321475312BE394B1005CCA46 /* Helpers */,
 				328D85242BE3851B00F742D8 /* Modules */,
 			);
 			path = hesoyam;
@@ -256,9 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3214752E2BE38E22005CCA46 /* UIViewExtension.swift in Sources */,
 				328D85392BE387FC00F742D8 /* LoginViewController.swift in Sources */,
+				321475352BE399CF005CCA46 /* CustomButton.swift in Sources */,
 				328D85382BE387FC00F742D8 /* LoginPresenter.swift in Sources */,
 				328D853A2BE387FC00F742D8 /* LoginBuilder.swift in Sources */,
+				321475332BE394CD005CCA46 /* CustomTextField.swift in Sources */,
+				321475302BE39012005CCA46 /* UIStackViewExtension.swift in Sources */,
 				328D850F2BE37BAA00F742D8 /* AppDelegate.swift in Sources */,
 				328D85112BE37BAA00F742D8 /* SceneDelegate.swift in Sources */,
 			);

@@ -30,6 +30,7 @@ final class LoginPresenter {
     }
 }
 
+
 // MARK: - LoginPresenterProtocol
 
 extension LoginPresenter: LoginPresenterProtocol {

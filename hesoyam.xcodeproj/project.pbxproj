@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3214752E2BE38E22005CCA46 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214752D2BE38E22005CCA46 /* UIViewExtension.swift */; };
+		321475302BE39012005CCA46 /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */; };
+		321475332BE394CD005CCA46 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321475322BE394CD005CCA46 /* CustomTextField.swift */; };
+		321475352BE399CF005CCA46 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321475342BE399CF005CCA46 /* CustomButton.swift */; };
 		328D850F2BE37BAA00F742D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D850E2BE37BAA00F742D8 /* AppDelegate.swift */; };
 		328D85112BE37BAA00F742D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D85102BE37BAA00F742D8 /* SceneDelegate.swift */; };
 		328D85182BE37BAE00F742D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328D85172BE37BAE00F742D8 /* Assets.xcassets */; };
@@ -14,11 +18,24 @@
 		328D85382BE387FC00F742D8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D85342BE387FC00F742D8 /* LoginPresenter.swift */; };
 		328D85392BE387FC00F742D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D85362BE387FC00F742D8 /* LoginViewController.swift */; };
 		328D853A2BE387FC00F742D8 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D85372BE387FC00F742D8 /* LoginBuilder.swift */; };
+		32A8FF372BE4165300F0E188 /* CreateAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF332BE4165300F0E188 /* CreateAccountPresenter.swift */; };
+		32A8FF382BE4165300F0E188 /* CreateAccountBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF342BE4165300F0E188 /* CreateAccountBuilder.swift */; };
+		32A8FF392BE4165300F0E188 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF362BE4165300F0E188 /* CreateAccountViewController.swift */; };
+		32A8FF4E2BE41C4500F0E188 /* ResetPasswordBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF492BE41C4500F0E188 /* ResetPasswordBuilder.swift */; };
+		32A8FF4F2BE41C4500F0E188 /* ResetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF4B2BE41C4500F0E188 /* ResetPasswordPresenter.swift */; };
+		32A8FF502BE41C4500F0E188 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF4D2BE41C4500F0E188 /* ResetPasswordViewController.swift */; };
+		32A8FF592BE4223B00F0E188 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF542BE4223B00F0E188 /* MainBuilder.swift */; };
+		32A8FF5A2BE4223B00F0E188 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF562BE4223B00F0E188 /* MainPresenter.swift */; };
+		32A8FF5B2BE4223B00F0E188 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8FF582BE4223B00F0E188 /* MainViewController.swift */; };
 		E0228A38D815124A42378B67 /* Pods_hesoyam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE36B5CD9A14CC4757056A2 /* Pods_hesoyam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CE36B5CD9A14CC4757056A2 /* Pods_hesoyam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hesoyam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3214752D2BE38E22005CCA46 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		321475322BE394CD005CCA46 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		321475342BE399CF005CCA46 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		328D850B2BE37BAA00F742D8 /* hesoyam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hesoyam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		328D850E2BE37BAA00F742D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328D85102BE37BAA00F742D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +45,15 @@
 		328D85342BE387FC00F742D8 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		328D85362BE387FC00F742D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		328D85372BE387FC00F742D8 /* LoginBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		32A8FF332BE4165300F0E188 /* CreateAccountPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPresenter.swift; sourceTree = "<group>"; };
+		32A8FF342BE4165300F0E188 /* CreateAccountBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountBuilder.swift; sourceTree = "<group>"; };
+		32A8FF362BE4165300F0E188 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		32A8FF492BE41C4500F0E188 /* ResetPasswordBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordBuilder.swift; sourceTree = "<group>"; };
+		32A8FF4B2BE41C4500F0E188 /* ResetPasswordPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordPresenter.swift; sourceTree = "<group>"; };
+		32A8FF4D2BE41C4500F0E188 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		32A8FF542BE4223B00F0E188 /* MainBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		32A8FF562BE4223B00F0E188 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		32A8FF582BE4223B00F0E188 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		543D9D23AFB0D4B3F86173C4 /* Pods-hesoyam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hesoyam.debug.xcconfig"; path = "Target Support Files/Pods-hesoyam/Pods-hesoyam.debug.xcconfig"; sourceTree = "<group>"; };
 		7B7D17A482EE4BE3296A8FB4 /* Pods-hesoyam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hesoyam.release.xcconfig"; path = "Target Support Files/Pods-hesoyam/Pods-hesoyam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3214752C2BE38DEA005CCA46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3214752D2BE38E22005CCA46 /* UIViewExtension.swift */,
+				3214752F2BE39012005CCA46 /* UIStackViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		321475312BE394B1005CCA46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				321475322BE394CD005CCA46 /* CustomTextField.swift */,
+				321475342BE399CF005CCA46 /* CustomButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		328D85022BE37BAA00F742D8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +111,8 @@
 			children = (
 				328D85222BE37CEE00F742D8 /* Core */,
 				328D85232BE37D1400F742D8 /* Resources */,
+				3214752C2BE38DEA005CCA46 /* Extensions */,
+				321475312BE394B1005CCA46 /* Helpers */,
 				328D85242BE3851B00F742D8 /* Modules */,
 			);
 			path = hesoyam;
@@ -95,6 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				328D85322BE387FC00F742D8 /* Login */,
+				32A8FF312BE4165300F0E188 /* CreateAccount */,
+				32A8FF482BE41C4500F0E188 /* ResetPassword */,
+				32A8FF532BE4223B00F0E188 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -121,6 +170,84 @@
 			isa = PBXGroup;
 			children = (
 				328D85362BE387FC00F742D8 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A8FF312BE4165300F0E188 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF342BE4165300F0E188 /* CreateAccountBuilder.swift */,
+				32A8FF322BE4165300F0E188 /* Presenter */,
+				32A8FF352BE4165300F0E188 /* View */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		32A8FF322BE4165300F0E188 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF332BE4165300F0E188 /* CreateAccountPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		32A8FF352BE4165300F0E188 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF362BE4165300F0E188 /* CreateAccountViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A8FF482BE41C4500F0E188 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF492BE41C4500F0E188 /* ResetPasswordBuilder.swift */,
+				32A8FF4A2BE41C4500F0E188 /* Presenter */,
+				32A8FF4C2BE41C4500F0E188 /* View */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		32A8FF4A2BE41C4500F0E188 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF4B2BE41C4500F0E188 /* ResetPasswordPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		32A8FF4C2BE41C4500F0E188 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF4D2BE41C4500F0E188 /* ResetPasswordViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A8FF532BE4223B00F0E188 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF542BE4223B00F0E188 /* MainBuilder.swift */,
+				32A8FF552BE4223B00F0E188 /* Presenter */,
+				32A8FF572BE4223B00F0E188 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		32A8FF552BE4223B00F0E188 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF562BE4223B00F0E188 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		32A8FF572BE4223B00F0E188 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32A8FF582BE4223B00F0E188 /* MainViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,11 +383,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A8FF392BE4165300F0E188 /* CreateAccountViewController.swift in Sources */,
+				3214752E2BE38E22005CCA46 /* UIViewExtension.swift in Sources */,
+				32A8FF5A2BE4223B00F0E188 /* MainPresenter.swift in Sources */,
+				32A8FF382BE4165300F0E188 /* CreateAccountBuilder.swift in Sources */,
+				32A8FF4F2BE41C4500F0E188 /* ResetPasswordPresenter.swift in Sources */,
 				328D85392BE387FC00F742D8 /* LoginViewController.swift in Sources */,
+				321475352BE399CF005CCA46 /* CustomButton.swift in Sources */,
 				328D85382BE387FC00F742D8 /* LoginPresenter.swift in Sources */,
 				328D853A2BE387FC00F742D8 /* LoginBuilder.swift in Sources */,
+				32A8FF592BE4223B00F0E188 /* MainBuilder.swift in Sources */,
+				321475332BE394CD005CCA46 /* CustomTextField.swift in Sources */,
+				321475302BE39012005CCA46 /* UIStackViewExtension.swift in Sources */,
 				328D850F2BE37BAA00F742D8 /* AppDelegate.swift in Sources */,
+				32A8FF372BE4165300F0E188 /* CreateAccountPresenter.swift in Sources */,
+				32A8FF502BE41C4500F0E188 /* ResetPasswordViewController.swift in Sources */,
+				32A8FF5B2BE4223B00F0E188 /* MainViewController.swift in Sources */,
 				328D85112BE37BAA00F742D8 /* SceneDelegate.swift in Sources */,
+				32A8FF4E2BE41C4500F0E188 /* ResetPasswordBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
